@@ -1,2 +1,5 @@
-#!/bin/bash
-make -C buildroot distclean
+set -e 
+cd `dirname $0`
+cd buildroot/
+
+make distclean
